@@ -1,4 +1,5 @@
 Smart Traffic Management System (C++ Console)
+
 A console-based prototype that simulates intelligent city traffic operations using Object-Oriented Programming in C++. It supports user authentication, dynamic traffic signal control based on vehicle density and emergencies, violation reporting with challan generation, and emergency logging — with all records persisted to text files. :contentReference[oaicite:0]{index=0}
 
 Table of Contents
