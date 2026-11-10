@@ -14,7 +14,7 @@ int getIntInput(const string &prompt, int minVal = INT_MIN, int maxVal = INT_MAX
         cout << prompt;
         if (cin >> value) {
             if (value >= minVal && value <= maxVal) {
-                // cin.ignore(numeric_limits<streamsize>::max(), '\n'); // clear buffer
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // clear buffer
                 return value;
             } else {
                 cout << "Please enter a valid number between " << minVal << " and " << maxVal << ".\n";
