@@ -199,7 +199,7 @@ public:
 
         string streetName;
         cout << "Enter street name: ";
-        // cin.ignore();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         getline(cin, streetName);
 
         cout << "Select type of emergency:\n";
